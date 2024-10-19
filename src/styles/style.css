@@ -76,6 +76,16 @@ video {
   text-decoration: none;
 }
 
+.link-assistir:hover {
+  background-color: gray;
+  color: white;
+}
+
+.link-info:hover {
+  background-color: gray;
+  color: white !important;
+}
+
 .imagem-carrossel {
   height: 150px;
 }
@@ -84,7 +94,7 @@ video {
   background-color: transparent;
   position: absolute;
   bottom: 10px;
-  left: 82px;
+  left: 88px;
 }
 
 .titulo-carrossel {
