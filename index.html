@@ -20,6 +20,8 @@
     <title>Netflix</title>
   </head>
   <body>
+    <audio src="assets/tudum-netflix-sound.mp3" class="audio"></audio>
+
     <nav class="navbar">
       <ul>
         <li>
@@ -39,10 +41,12 @@
         e mortais.
       </p>
       <a href="#" class="link-assistir">Assistir</a>
-      <a href="#" class="link-info">Mais informações</a>
+      <a class="link-info">Mais informações</a>
     </div>
 
-    <video src="assets/round6.mp4" autoplay muted loop></video>
+    <video src="assets/round6.mp4" autoplay muted loop class="video"></video>
+
+    <button class="botao-som">🔈</button>
 
     <div id="carouselExampleControls" class="carousel slide">
       <h2 class="titulo-carrossel">Principais Filmes e Séries</h2>
@@ -93,6 +97,19 @@
       </button>
     </div>
 
+    <div class="modal">
+      <div class="modal-conteudo">
+        <h2>Round 6</h2>
+        <p>
+          Quando centenas de jogadores falidos aceitam um estranho convite para
+          um jogo de sobrevivência. Um prêmio milionário aguarda, mas as apostas
+          são altas e mortais.
+        </p>
+        <p>Gênero: <strong>Ação/Suspense</strong></p>
+        <p>Ano de Lançamento: <strong>2021</strong></p>
+      </div>
+    </div>
+
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
@@ -113,5 +130,7 @@
       integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
       crossorigin="anonymous"
     ></script>
+
+    <script src="src/javascript/script.js"></script>
   </body>
 </html>
