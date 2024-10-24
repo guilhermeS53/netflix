@@ -2,6 +2,7 @@ let botaoSom = document.querySelector(".botao-som");
 let video = document.querySelector(".video");
 let botao = document.querySelector(".link-info");
 let modal = document.querySelector(".modal");
+let fecharBotao = document.querySelector(".fechar-modal");
 let audio = document.querySelector(".audio");
 
 // Ligar SOM
@@ -14,7 +15,7 @@ function ligarSOM() {
 // ! = inverso / inverte tudo
 // Se ta mudo, ele vai tocar, se tiver tocando ele vai deixar mudo
 botao.addEventListener("click", mostrarModal);
-botao.addEventListener("click", esconderModal);
+fecharBotao.addEventListener("click", esconderModal);
 
 function mostrarModal() {
   modal.style.display = "block";
